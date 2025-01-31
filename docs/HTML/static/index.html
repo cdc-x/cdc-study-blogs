@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <form action="http://127.0.0.1:8080" method="post">
+      <div>
+          <label for="name">姓名</label>
+          <input type="text" name="name" id="name">
+      </div>
+       <div>
+           <label for="age">年龄</label>
+           <input type="text" name="age" id="age">
+       </div>
+       <div>
+           <label>性别</label>
+           <input type="radio" name="gender" value="male" checked="checked">男
+           <input type="radio" name="gender" value="female">女
+       </div>
+       <div>
+           <label for="city">籍贯</label>
+           <select name="city" id="city">
+               <option value="shanghai">上海</option>
+               <option value="nanjing" selected="selected">南京</option>
+               <option value="hangzhou">杭州</option>
+           </select>
+       </div>
+       <div>
+           <span>爱好 </span>
+
+           <input type="checkbox" value="eat" id="eat">
+           <label for="eat">吃吃吃</label>
+           <input type="checkbox" value="eat" id="drink">
+           <label for="drink">喝喝喝</label>
+           <input type="checkbox" value="eat" id="play">
+           <label for="play">玩玩玩</label>
+       </div>
+       <div>
+           <input type="submit" value="提交">
+       </div>
+   </form>
+
+</body>
+</html>
