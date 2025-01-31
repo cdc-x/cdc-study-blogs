@@ -1,0 +1,15 @@
+name: Sync To Gitee
+
+on: [ push, delete, create ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        with:
+          source-repo: git@github.com:cdc-x/cdc-study-blogs.git
+          destination-repo: git@gitee.com:chendacheng/cdc-study-blogs.git
