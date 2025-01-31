@@ -144,7 +144,7 @@ CSS 的语法格式为：
 </html>
 ```
 
-<img src="../../static/img/CSS/标签选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/标签选择器.png" style="zoom:80%;" /> 
 
 ### **3. ID 选择器**
 
@@ -180,7 +180,7 @@ CSS 的语法格式为：
 </html>
 ```
 
-<img src="../../static/img/CSS/ID选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/ID选择器.png" style="zoom:80%;" /> 
 
 ### **三、类选择器**
 
@@ -215,7 +215,7 @@ CSS 的语法格式为：
 </html>
 ```
 
-<img src="../../static/img/CSS/类选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/类选择器.png" style="zoom:80%;" /> 
 
 ### **四、通用选择器**
 
@@ -248,7 +248,7 @@ CSS 的语法格式为：
 </html>
 ```
 
-<img src="../../static/img/CSS/通用选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/通用选择器.png" style="zoom:80%;" /> 
 
 ### **五、后代选择器**
 
@@ -286,7 +286,7 @@ CSS 的语法格式为：
 
 渲染 `<div></div>` 内部所有层级的 `<p></p>` 标签。
 
-<img src="../../static/img/CSS/后代选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/后代选择器.png" style="zoom:80%;" /> 
 
 ### **六、子代选择器**
 
@@ -324,7 +324,7 @@ CSS 的语法格式为：
 
 只对 `<>div</div>` 的第一层的 `<a></a>` 标签（即子代标签）有效果，对更深层次的 `<a></a>` 标签（即孙子标签）没有效果。
 
-<img src="../../static/img/CSS/子代选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/子代选择器.png" style="zoom:80%;" /> 
 
 ### **七、弟弟选择器**
 
@@ -354,7 +354,7 @@ CSS 的语法格式为：
 
 对 `<div></div>` 标签后的所有 `<p></p>` 标签进行渲染。
 
-<img src="../../static/img/CSS/弟弟选择器.png" style="zoom: 80%;" /> 
+<img src="../../static/img/css/弟弟选择器.png" style="zoom: 80%;" /> 
 
 ### **八、毗邻选择器**
 
@@ -384,7 +384,7 @@ CSS 的语法格式为：
 
 毗邻选择器和弟弟选择器的区别是，弟弟选择器能渲染多个，毗邻选择器只能渲染一个。
 
-<img src="../../static/img/CSS/毗邻选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/毗邻选择器.png" style="zoom:80%;" /> 
 
 ### **九、分组选择器**
 
@@ -413,7 +413,7 @@ CSS 的语法格式为：
 </html>
 ```
 
-<img src="../../static/img/CSS/分组选择器.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/分组选择器.png" style="zoom:80%;" /> 
 
 **补充：**
 
@@ -532,7 +532,7 @@ input:focus {
 </html>
 ```
 
-<img src="../../static/img/CSS/伪类选择器.gif" style="zoom:80%;" /> 
+<img src="../../static/img/css/伪类选择器.gif" style="zoom:80%;" /> 
 
 ### **十二、伪元素选择器**
 
@@ -558,7 +558,7 @@ input:focus {
 </html>
 ```
 
-<img src="../../static/img/CSS/伪元素选择器1.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/伪元素选择器1.png" style="zoom:80%;" /> 
 
 #### **12.2 first-line：给第一行设置特殊样式**
 
@@ -586,7 +586,7 @@ input:focus {
 </html>
 ```
 
-<img src="../../static/img/CSS/伪元素选择器2.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/伪元素选择器2.png" style="zoom:80%;" /> 
 
 #### **12.3 before：在指定元素之前插入内容**
 
@@ -610,7 +610,7 @@ input:focus {
 </html>
 ```
 
-<img src="../../static/img/CSS/伪元素选择器3.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/伪元素选择器3.png" style="zoom:80%;" /> 
 
 #### **12.4 after：在指定元素之后插入内容**
 
@@ -634,7 +634,7 @@ input:focus {
 </html>
 ```
 
-<img src=".../../static/img/CSS/伪元素选择器4.png" style="zoom:80%;" />  
+<img src=".../../static/img/css/伪元素选择器4.png" style="zoom:80%;" />  
 
 ## CSS 选择器补充
 
@@ -667,7 +667,7 @@ input:focus {
 </html>
 ```
 
-<img src="../../static/img/CSS/css继承.png" style="zoom:80%;" /> 
+<img src="../../static/img/css/css继承.png" style="zoom:80%;" /> 
 
 对父级 `<div></div>` 标签设置的属性可以被后代的 `<span></span>` 标签所继承。当然，并不是所有的属性都可以被继承，例如边框属性等就无法被继承。
 
